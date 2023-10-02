@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'taskTwo';
+  username:string='';
+  isEmpty=false;
+
+
+  onReset(){
+    this.username="";
+    this.isEmpty=true
+  }
+
 }
